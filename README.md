@@ -91,34 +91,25 @@ The Movie Night Picker application:
 ---
 
 ## 🧩 System Architecture
-User Interface (HTML/CSS/JS)
-↓
-PHP Backend
-↓
-Movie Logic / Database
-↓
-Result Display
+-User Interface (HTML/CSS/JS)
+    ↓
+-PHP Backend
+    ↓
+-Movie Logic / Database
+    ↓
+-Result Display
 
 🔄 Application Workflow
 
-*User opens the Movie Night Picker website
-*User adds movies via the form
-*Movies are processed using PHP
-*User clicks Pick Movie
-*PHP randomly selects a movie
-*Selected movie is displayed
-*User can re-pick if needed
+-User opens the Movie Night Picker website
+-User adds movies via the form
+-Movies are processed using PHP
+-User clicks Pick Movie
+-PHP randomly selects a movie
+-Selected movie is displayed
+-User can re-pick if needed
 
-movie-night-picker/
-│
-├── index.php         # Main page
-├── config.php        # Configuration file
-├── add_movie.php     # Movie adding logic
-├── pick_movie.php    # Random picker logic
-├── style.css         # Styling
-├── script.js         # Client-side logic
-├── database.sql      # Database structure (optional)
-└── README.md         # Documentation
+
 
 🔮 Future Enhancements
 
