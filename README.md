@@ -75,7 +75,7 @@ The Movie Night Picker application:
 - 👆 Easy navigation
 
 ---
-##Live Preview on Netlify
+##   Live Preview on Netlify
 https://movienightpi.netlify.app/
 
 ---
@@ -115,7 +115,7 @@ https://movienightpi.netlify.app/
 
 
 
-##🔮 Future Enhancements
+##  🔮 Future Enhancements
 
 🎞️ External Movie API integration (TMDB / OMDb)
 
@@ -129,7 +129,7 @@ https://movienightpi.netlify.app/
 
 ☁️ Cloud deployment
 
-##📚 Learning Outcomes
+##   📚 Learning Outcomes
 
 **This project helped develop:
 
