@@ -1,0 +1,145 @@
+/* style.css */
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #0f0f0f;
+  color: #b9856d;
+}
+
+body {
+  background: url("gys.jpg");
+  background-size: cover;
+  color: #fff;
+}
+
+
+/* Header Styling */
+header {
+  background-color: #0f0f0f;
+  color: #ffffff;
+  text-align: center;
+  padding: 20px 0;
+  box-shadow: 0 4px 10px rgba(0, 255, 200, 0.3);
+}
+
+/* Heading Text */
+header h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #d6a800; /* Golden popcorn color */
+  margin-bottom: 10px;
+}
+
+/* Navigation Links */
+nav {
+  margin-top: 10px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #00ffc8;
+  margin: 0 15px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  border-bottom: 2px solid transparent;
+  padding-bottom: 5px;
+}
+
+/* Hover effect */
+nav a:hover {
+  color: #fefcfc;
+  
+}
+
+
+
+.primary-btn {
+  background-color: #00ffc8;
+  color: #000;
+}
+
+header,
+footer {
+  background-color: #111;
+  padding: 1rem;
+  text-align: center;
+}
+
+nav a {
+  color: #b46001;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+main {
+  padding: 2rem;
+  text-align: center;
+}
+
+.hero-image {
+  width: 100%;
+  max-height: 300px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-top: 1rem;
+}
+
+.primary-btn {
+  padding: 10px 20px;
+  margin: 10px;
+  background-color: #ebebee;
+  border: none;
+  border-radius: 5px;
+  color: #000;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.primary-btn:hover {
+  background-color: #f0c70f;
+}
+
+input,
+select,
+textarea {
+  padding: 10px;
+  width: 80%;
+  margin: 10px 0;
+  border-radius: 5px;
+  border: none;
+  font-size: 1rem;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+.movie-result {
+  font-size: 1.3rem;
+  font-weight: bold;
+  color: #adafe7;
+}
+
+.back-btn {
+  background-color: #bfa016;
+  color: white;
+  padding: 8px 15px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.back-btn:hover {
+  background-color: #f1c207;
+}
+
+
+

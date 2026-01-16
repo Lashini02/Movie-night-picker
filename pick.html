@@ -1,0 +1,30 @@
+<!-- picker.html -->
+<!DOCTYPE html>
+
+  <head>
+    
+    <title>Pick a Movie</title>
+    <link rel="stylesheet" href="movie.css" />
+    <a href="movie.html" class="back-btn"> Back to Home</a>
+
+  </head>
+  <body>
+    <header>
+      <h1>Pick a Movie</h1>
+      
+
+    </header>
+    <main>
+      <section>
+        <h2>Click the Button to Pick a Movie</h2>
+        <button onclick="pickRandomMovie()" class="primary-btn">
+          🎬 Pick Movie
+        </button>
+        <p id="result" class="movie-result"></p>
+        <img src="couple2.jpg" alt="pick" style="max-width: 400px; border-radius: 15px;">
+      </section>
+    </main>
+    
+    <script src="movie.js"></script>
+  </body>
+</html>

@@ -1,0 +1,42 @@
+<!-- custom.html -->
+<!DOCTYPE html>
+
+  <head>
+    
+    <title>Custom Movie List</title>
+    <link rel="stylesheet" href="movie.css" />
+    <a href="movie.html" class="back-btn"> Back to Home</a>
+
+  </head>
+  <body>
+    <header>
+      <h1>Custom Movie List</h1>
+     
+
+    </header>
+    <main>
+      <section>
+        <h2>Add Your Favorite Movies</h2>
+        <form id="movieForm">
+          <input
+            type="text"
+            id="movieInput"
+            placeholder="Enter movie name"
+            required
+          />
+          <button type="submit" class="primary-btn">Add</button>
+        </form>
+        <ul id="movieList"></ul>
+        <button onclick="pickFromCustomList()" class="primary-btn">
+          🎲 Pick from My List
+        </button>
+        <p id="customResult" class="movie-result"></p>
+        <img src="girl1.jpg" alt="girl" style="max-width: 300px; border-radius: 20px;">
+      </section>
+    </main>
+    <footer>
+      <p>&copy; 2025 Movie Picker | Your personal collection</p>
+    </footer>
+    <script src="movie.js"></script>
+  </body>
+</html>

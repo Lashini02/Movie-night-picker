@@ -1,0 +1,44 @@
+<!-- genres.html -->
+<!DOCTYPE html>
+
+  <head>
+    <title>Select Genre</title>
+    <link rel="stylesheet" href="movie.css" />
+    
+    <a href="movie.html" class="back-btn"> Back to Home</a>
+
+  </head>
+  <body>
+    <header>
+      <h1>Choose By a Genre</h1>
+      
+    </header>
+    <main>
+      <section>
+        <h2> <b>Select a Genre and Get a Movie</b> </h2>
+        <select id="genreSelect">
+          
+          <option value="Thriller">Thriller</option>
+          <option value="Comedy">Comedy</option>
+          <option value="Horror">Horror</option>
+          <option value="Romance">Romance</option>
+          <option value="Fantacy">Fantacy</option>
+          <option value="action">Action</option>
+          <option value="drama">Drama</option>
+          <option value="sci-fi">Sci-Fi</option>
+          
+          
+        </select>
+        <button onclick="pickByGenre()" class="primary-btn">
+          🍿 Suggest Movie
+        </button>
+        <p id="genreResult" class="movie-result"></p>
+        <img src="genre.jpg" alt="genre" style="max-width: 400px; border-radius: 15px;">
+      </section>
+    </main>
+    <footer>
+      <p>&copy; 2025 Movie Picker | Genre-based excitement</p>
+    </footer>
+    <script src="movie.js"></script>
+  </body>
+</html>
