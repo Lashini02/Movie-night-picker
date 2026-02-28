@@ -8,7 +8,7 @@ The system allows users to add movies, manage a movie list, and randomly select 
 This project demonstrates both **front-end and back-end web development concepts**.
 
 ---
-Live Demo
+# Live Demo
 
 The Movie Night Picker application is deployed using GitHub Pages.
 
